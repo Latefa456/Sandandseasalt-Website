@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sand And Seasalt infos</title>
+</head>
+<body class="info">
+    <h1>Welcome to the info and Links of sand and seasalt</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><h2>Home</h2></a></li>
+                <li><a href="cards.html"><h2>Cards</h2></a></li>
+                <li><a href="history.html"><h2>Lore</h2></a></li>
+                <li><a href="info.html"><h2>Info</h2></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="content">
+        <div class="social-links">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <img src="/instagram1.png" alt="Instagram Icon">
+            </a>
+            <a href="https://www.youtube.com/channel/UCZ_xHeIjZeX6g5kbYLhEkag/" target="_blank" rel="noopener noreferrer">
+                <img src="/youtube.png" alt="YouTube Icon">
+            </a>
+            <a href="https://www.hitech-gamer.com/?utm_source=MALTERNATIV&utm_campaign=INFLUENCERS_PARTNERS" target="_blank" rel="noopener noreferrer">
+                <img src="/store.png" alt="Store Icon">
+            </a>
+        </div>
+        <p><a class="download-link" href="/schaltzeichen-uebersicht.pdf" download="schaltzeichen-uebersicht.pdf">Download Game rules and rinciples(PDF)</a></p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xfr64zoBTAQ?si=lvCe86jjwkvlv9b2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p></p>
+        </div>
+    </section>
+    
+    <button id="back-to-top" onclick="scrollToTop()">Back to Top</button>
+   
+    <script>
+         function scrollToTop() {
+             window.scrollTo({
+                 top: 0,
+                 behavior: 'smooth'
+             });
+         }
+ 
+         window.onscroll = function() {
+             var button = document.getElementById("back-to-top");
+             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 document.body.classList.add("scrolled");
+             } else {
+                 document.body.classList.remove("scrolled");
+             }
+         };
+     </script>
+
+    <img src="/WD.png" alt="Your Logo">
+</body>
+</html>
+<!--this code was written by Fabio Meier (FM)
+on behalf of Louis Surmil-->

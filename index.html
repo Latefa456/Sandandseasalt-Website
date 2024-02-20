@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sand And Seasalt TCG</title>
+    <meta name="Sand and Seasalt TCG" content="The Wolrld of the snad and seasalt TCG"> 
+</head>
+<body class="homepage">
+    <h1>Welcome to the World of the Sand and Seasalt TCG</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><h2>Home</h2></a></li>
+                <li><a href="cards.html"><h2>Cards</h2></a></li>
+                <li><a href="history.html"><h2>Lore</h2></a></li>
+                <li><a href="info.html"><h2>Info</h2></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="change-logs">
+        <h2>Change Logs</h2>
+        <ul>
+            <li><strong>Version Beta 1.7.1:</strong> Fixt title of website in Google search and set it to " Sand And Seasalt TCG" and addet a new title </li>
+            <li><strong>Version Beta 1.7.0:</strong>  Uploaded the Website on the server </li>
+        </ul>
+    </section>
+
+    <section class="recent-cards">
+        <div class="card">
+            <h3>Card 5</h3>
+            <img src="/K5.png" alt="Card 1 Image">
+            <div class="card-description">
+                <p>Description for Card 2 goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+    </section>
+
+        <div class="bottom-text">
+            <h4>This website has nothing to do or isn't related to any other website with the same domain</h4>
+            <h4>Sand and seasalt has nothing to do with any other merchandise or any other items except for these linked on ths website </h4>
+        </div>
+
+    <button id="back-to-top" onclick="scrollToTop()">Back to Top</button>
+
+   <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        window.onscroll = function() {
+            var button = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.body.classList.add("scrolled");
+            } else {
+                document.body.classList.remove("scrolled");
+            }
+        };
+    </script>
+
+    <img src="/WD.png" alt="Your Logo">
+</body>
+</html>
+
+<!--this code was written by Fabio Meier (FM)
+on behalf of Louis Surmil-->

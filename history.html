@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sand And Seasalt history</title>
+</head>
+<body class="history">
+    <h1>Welcome to the Lore of sand and seasalt</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><h2>Home</h2></a></li>
+                <li><a href="cards.html"><h2>Cards</h2></a></li>
+                <li><a href="Lore.html"><h2>Lore</h2></a></li>
+                <li><a href="info.html"><h2>Info</h2></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+    </section>
+
+        <div class="history-text">
+            <h5>The Lore of sand and seasalt is hier  </h5>
+        </div>
+
+
+    <button id="back-to-top" onclick="scrollToTop()">Back to Top</button>
+
+   <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        window.onscroll = function() {
+            var button = document.getElementById("back-to-top");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.body.classList.add("scrolled");
+            } else {
+                document.body.classList.remove("scrolled");
+            }
+        };
+    </script>
+</body>
+</html>
